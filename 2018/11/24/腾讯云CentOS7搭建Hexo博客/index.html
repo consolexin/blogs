@@ -79,7 +79,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Hexo,CentOS,">
 
 
 
@@ -92,16 +92,18 @@
 
 
 
-<meta name="description" content="a website">
-<meta property="og:type" content="website">
-<meta property="og:title" content="星魂阁">
-<meta property="og:url" content="https://consolexin.github.io/index.html">
+<meta name="description" content="准备工作Windows系统中：  具有 GitHub账号 已安装Git客户端 已安装XShell连接远程服务器  CentOS7系统中：  安装Nginx服务 安装Node.js服务（注意gcc版本必须是4.9及以上，否则不能安装成功） 安装Git进行部署  安装Git 用Xshell连接CentOS7云服务器  输入命令，安装Git，完成之后用git --version检查版本号1yum ins">
+<meta name="keywords" content="Hexo,CentOS">
+<meta property="og:type" content="article">
+<meta property="og:title" content="腾讯云CentOS7搭建Hexo博客">
+<meta property="og:url" content="https://consolexin.github.io/2018/11/24/腾讯云CentOS7搭建Hexo博客/index.html">
 <meta property="og:site_name" content="星魂阁">
-<meta property="og:description" content="a website">
+<meta property="og:description" content="准备工作Windows系统中：  具有 GitHub账号 已安装Git客户端 已安装XShell连接远程服务器  CentOS7系统中：  安装Nginx服务 安装Node.js服务（注意gcc版本必须是4.9及以上，否则不能安装成功） 安装Git进行部署  安装Git 用Xshell连接CentOS7云服务器  输入命令，安装Git，完成之后用git --version检查版本号1yum ins">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-11-24T09:56:36.991Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="星魂阁">
-<meta name="twitter:description" content="a website">
+<meta name="twitter:title" content="腾讯云CentOS7搭建Hexo博客">
+<meta name="twitter:description" content="准备工作Windows系统中：  具有 GitHub账号 已安装Git客户端 已安装XShell连接远程服务器  CentOS7系统中：  安装Nginx服务 安装Node.js服务（注意gcc版本必须是4.9及以上，否则不能安装成功） 安装Git进行部署  安装Git 用Xshell连接CentOS7云服务器  输入命令，安装Git，完成之后用git --version检查版本号1yum ins">
 
 
 
@@ -131,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="https://consolexin.github.io/">
+  <link rel="canonical" href="https://consolexin.github.io/2018/11/24/腾讯云CentOS7搭建Hexo博客/">
 
 
 
 
 
-  <title>星魂阁</title>
+  <title>腾讯云CentOS7搭建Hexo博客 | 星魂阁</title>
   
 
 
@@ -162,8 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 	<!--<a href="https://github.com/consolexin"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>-->
     <a href="https://github.com/consolexin" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
@@ -299,9 +300,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -331,9 +332,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/blogs/2018/11/24/腾讯云CentOS7搭建Hexo博客/" itemprop="url">腾讯云CentOS7搭建Hexo博客</a></h1>
+          <h1 class="post-title" itemprop="name headline">腾讯云CentOS7搭建Hexo博客</h1>
         
 
         <div class="post-meta">
@@ -383,31 +382,50 @@
       
 
       
-        
-          
-          准备工作Windows系统中：
+        <h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><p>Windows系统中：</p>
+<ul>
+<li>具有 GitHub账号</li>
+<li>已安装Git客户端</li>
+<li>已安装XShell连接远程服务器</li>
+</ul>
+<p>CentOS7系统中：</p>
+<ul>
+<li>安装Nginx服务</li>
+<li>安装Node.js服务（注意gcc版本必须是4.9及以上，否则不能安装成功）</li>
+<li>安装Git进行部署</li>
+</ul>
+<h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><blockquote>
+<p>用Xshell连接CentOS7云服务器</p>
+</blockquote>
+<p>输入命令，安装Git，完成之后用<code>git --version</code>检查版本号<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install git</span><br></pre></td></tr></table></figure></p>
+<h3 id="创建Git用户"><a href="#创建Git用户" class="headerlink" title="创建Git用户"></a>创建Git用户</h3><p>Xshell中输入命令，创建Git用户<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adduser git</span><br></pre></td></tr></table></figure></p>
+<p>修改权限<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 740 /etc/sudoers</span><br></pre></td></tr></table></figure></p>
+<p>编辑内容<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/sudoers</span><br></pre></td></tr></table></figure></p>
+<p>找到下面的内容<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">## Allow root to run any commands anywhere</span><br><span class="line">root    ALL=(ALL)     ALL</span><br></pre></td></tr></table></figure></p>
+<p>按<code>i</code>进入编辑模式，在下面添加一行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git     ALL=(ALL)       ALL</span><br></pre></td></tr></table></figure></p>
+<p>按<code>Esc</code>退出编辑模式，按<code>:wq</code>保存退出，再输入下面的语句更改权限<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod 400 /etc/sudoers</span><br></pre></td></tr></table></figure></p>
+<p>使用<code>su root</code>切换到<strong>root</strong>用户，然后设置Git用户的密码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#需要root权限</span><br><span class="line">su root</span><br><span class="line">sudo passwd git</span><br></pre></td></tr></table></figure></p>
+<p>创建.ssh文件夹<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /home/git/.ssh</span><br></pre></td></tr></table></figure></p>
+<p>使用下面的命令新建一个SSH Key，<code>youremail</code>是你自己的邮箱，连续三个回车<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /home/git/.ssh</span><br><span class="line">ssh-keygen -t rsa -C &quot;youremail&quot;</span><br></pre></td></tr></table></figure></p>
+<p>使用<code>ls -a</code>查看隐藏文件，此时应该有<code>id_rsa.pub</code>文件，用<code>cat</code>命令查看再手动拷贝其内容<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ls -a</span><br><span class="line">cat /home/git/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>CentOS和Ubuntu系统下的拷贝命令是<code>Ctrl + insert</code>，，粘贴命令是<code>Shift + insert</code></p>
+</blockquote>
+<p>创建<code>authorized_keys</code>文件，将刚刚复制的内容拷贝到这个文件中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /home/git/.ssh/authorized_keys</span><br></pre></td></tr></table></figure></p>
+<p>修改文件和文件夹的权限<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod 600 /home/git/.ssh/authorzied_keys</span><br><span class="line">chmod 700 /home/git/.ssh</span><br></pre></td></tr></table></figure></p>
+<p><strong>验证是否可以登录成功</strong><br>在Windows系统中，打开<strong>Git Bash</strong>软件，输入<code>ssh -v git@SERVER</code>命令，其中<code>SERVER</code>是云服务器的IP地址，如果能够连接，那么说明ssh可以免密登录</p>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p>在Xshell中，通过npm进行全局安装hexo框架<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></p>
+<p>进入<code>Nginx</code>存放网站的根目录<code>/usr/local/nginx/html</code>，初始化Hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init Blog</span><br></pre></td></tr></table></figure></p>
+<p>输入<code>hexo s</code>开启服务器，此时可以通过<code>SERVERIP:4000</code>访问，其中<code>SERVERIP</code>指的是云服务器的公网地址。但是这并没有部署到云服务器上，因为控制台按<code>Ctrl + C</code>就停止了</p>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><p>用<code>cd /home/git</code>切换到Git用户的目录<br>初始化裸仓库<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init --bare blog.git</span><br></pre></td></tr></table></figure></p>
+<p>改变其拥有者为git用户<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chown -R git:git hexo.git</span><br></pre></td></tr></table></figure></p>
+<p>新建<code>post-receive</code>文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /home/git/blog.git/hooks/post-receive</span><br></pre></td></tr></table></figure></p>
+<p>在文件中输入下面的内容，在这里我的网站目录是<code>/usr/local/nginx/html/blog</code>，我的仓库目录是<code>/home/git/blog.git</code><br>请根据具体情况进行修改<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">#！/bin/sh</span><br><span class="line">git --work-tree=/usr/share/nginx/html/blog --git-dir=/home/git/blog.git checkout -f</span><br></pre></td></tr></table></figure></p>
+<p>保存退出，赋予可执行权限<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x ~/blog.git/hooks/post-receive</span><br></pre></td></tr></table></figure></p>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><h4 id="配置Deployment"><a href="#配置Deployment" class="headerlink" title="配置Deployment"></a>配置Deployment</h4><p>进入到博客根目录进行配置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/nginx/html/blog</span><br><span class="line">vim _config.yml</span><br></pre></td></tr></table></figure></p>
+<p>找到deploy部分，替换成如下内容，其中<code>SERVERIP</code>为云服务器的外网IP地址<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@SERVERIP:/home/git/blog.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<h4 id="配置URL"><a href="#配置URL" class="headerlink" title="配置URL"></a>配置URL</h4><p>在博客根目录中，对<code>_config.yml</code>编辑，找到<strong>URL</strong>部分<br>其中<code>SERVERIP</code>为云服务器的外网IP地址<br>完成之后，到Xshell中/blog目录下，执行<code>hexo g -d</code>命令<br>然后打开浏览器，输入<code>http://SERVERIP/blog/</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">url: http://SERVERIP</span><br><span class="line">root: /blog/</span><br><span class="line">permalink: :year/:month/:day/:title/</span><br><span class="line">permalink_defaults:</span><br></pre></td></tr></table></figure></p>
 
-具有 GitHub账号
-已安装Git客户端
-已安装XShell连接远程服务器
-
-CentOS7系统中：
-
-安装Nginx服务
-安装Node.js服务（注意gcc版本必须是4.9及以上，否则不能安装成功）
-安装Git进行部署
-
-安装Git
-用Xshell连接CentO
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/blogs/2018/11/24/腾讯云CentOS7搭建Hexo博客/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
       
     </div>
     
@@ -422,271 +440,38 @@ CentOS7系统中：
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://consolexin.github.io/blogs/2018/11/23/Hexo采用Next主题/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Xin Hun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://i.loli.net/2018/11/23/5bf79ec4d552f.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="星魂阁">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/blogs/2018/11/23/Hexo采用Next主题/" itemprop="url">Hexo采用Next主题</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-23T15:13:21+08:00">
-                2018-11-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/blogs/tags/Hexo/" rel="tag"><i class="fa fa-tag"></i> Hexo</a>
           
-            
+            <a href="/blogs/tags/CentOS/" rel="tag"><i class="fa fa-tag"></i> CentOS</a>
           
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
+      
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
+      
       
       
 
       
-        
-          
-          由于Hexo默认的主题是landscape，于是我想将主题改为Next
-安装Next在博客根目录下，右键，选择Git Bash Here
-输入命令：git clone https://github.com/iissnan/hexo-theme-next themes/next
-由于经常要涉及到配置文
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/blogs/2018/11/23/Hexo采用Next主题/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/blogs/2018/11/23/Hexo采用Next主题/" rel="next" title="Hexo采用Next主题">
+                <i class="fa fa-chevron-left"></i> Hexo采用Next主题
+              </a>
+            
           </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
 
-    
+          <span class="post-nav-divider"></span>
 
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://consolexin.github.io/blogs/2018/11/23/Github-Hexo-Next搭建个人博客/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Xin Hun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://i.loli.net/2018/11/23/5bf79ec4d552f.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="星魂阁">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/blogs/2018/11/23/Github-Hexo-Next搭建个人博客/" itemprop="url">Github+Hexo+Next搭建个人博客</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+          <div class="post-nav-prev post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-23T12:50:13+08:00">
-                2018-11-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-          安装Node.js环境进入Nodejs官网下载稳定版本一路next，安装好后，打开cmd，如果显示nodejs和npm版本号，则安装成功
-安装Git进入Git官网下载合适的版本如果在任意一个文件夹下面都有这两个，那么安装Git成功
-注册一个GitHub账户新建一个项目， 名称为账户名.github.
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/blogs/2018/11/23/Github-Hexo-Next搭建个人博客/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -696,296 +481,27 @@ CentOS7系统中：
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://consolexin.github.io/blogs/2018/11/19/nice-to-see-you/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Xin Hun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://i.loli.net/2018/11/23/5bf79ec4d552f.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="星魂阁">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/blogs/2018/11/19/nice-to-see-you/" itemprop="url">nice to see you</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-19T17:21:01+08:00">
-                2018-11-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/blogs/categories/随便写写/" itemprop="url" rel="index">
-                    <span itemprop="name">随便写写</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          欢迎使用 Cmd Markdown 编辑阅读器
-我们理解您需要更便捷更高效的工具记录思想，整理笔记、知识，并将其中承载的价值传播给他人，Cmd Markdown 是我们给出的答案 —— 我们为记录思想和分享知识提供更专业的工具。 您可以使用 Cmd Markdown：
-
-
-整理知识，学习笔记
-发布日
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/blogs/2018/11/19/nice-to-see-you/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
 
 
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://consolexin.github.io/blogs/2018/11/19/hello-world/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Xin Hun">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://i.loli.net/2018/11/23/5bf79ec4d552f.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="星魂阁">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/blogs/2018/11/19/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-19T14:53:55+08:00">
-                2018-11-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/blogs/2018/11/19/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
           </div>
-          <!--/noindex-->
-        
-      
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80MTE2Mi8xNzcxMA=="></div>
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
 
   
 
 
-          </div>
-          
-
-
-          
 
         </div>
         
@@ -1006,8 +522,17 @@ CentOS7系统中：
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -1108,6 +633,22 @@ CentOS7系统中：
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Git"><span class="nav-number">2.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建Git用户"><span class="nav-number">3.</span> <span class="nav-text">创建Git用户</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Hexo"><span class="nav-number">4.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#部署"><span class="nav-number">5.</span> <span class="nav-text">部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置"><span class="nav-number">6.</span> <span class="nav-text">配置</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#配置Deployment"><span class="nav-number">6.1.</span> <span class="nav-text">配置Deployment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#配置URL"><span class="nav-number">6.2.</span> <span class="nav-text">配置URL</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1258,6 +799,10 @@ CentOS7系统中：
 
 
   
+  <script type="text/javascript" src="/blogs/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/blogs/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -1286,6 +831,17 @@ CentOS7系统中：
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
