@@ -3,11 +3,11 @@
   <title>星魂阁</title>
   
   <subtitle>consolexin</subtitle>
-  <link href="/blogs/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://consolexin.github.io/"/>
+  <link href="https://consolexin.github.io/blogs/"/>
   <updated>2018-11-24T10:54:46.695Z</updated>
-  <id>https://consolexin.github.io/</id>
+  <id>https://consolexin.github.io/blogs/</id>
   
   <author>
     <name>Xin Hun</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>腾讯云CentOS7搭建Hexo博客</title>
-    <link href="https://consolexin.github.io/2018/11/24/%E8%85%BE%E8%AE%AF%E4%BA%91CentOS7%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://consolexin.github.io/2018/11/24/腾讯云CentOS7搭建Hexo博客/</id>
+    <link href="https://consolexin.github.io/blogs/2018/11/24/%E8%85%BE%E8%AE%AF%E4%BA%91CentOS7%E6%90%AD%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://consolexin.github.io/blogs/2018/11/24/腾讯云CentOS7搭建Hexo博客/</id>
     <published>2018-11-24T09:54:31.000Z</published>
     <updated>2018-11-24T10:54:46.695Z</updated>
     
@@ -39,16 +39,16 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://consolexin.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://consolexin.github.io/blogs/tags/Hexo/"/>
     
-      <category term="CentOS" scheme="https://consolexin.github.io/tags/CentOS/"/>
+      <category term="CentOS" scheme="https://consolexin.github.io/blogs/tags/CentOS/"/>
     
   </entry>
   
   <entry>
     <title>Hexo采用Next主题</title>
-    <link href="https://consolexin.github.io/2018/11/23/Hexo%E9%87%87%E7%94%A8Next%E4%B8%BB%E9%A2%98/"/>
-    <id>https://consolexin.github.io/2018/11/23/Hexo采用Next主题/</id>
+    <link href="https://consolexin.github.io/blogs/2018/11/23/Hexo%E9%87%87%E7%94%A8Next%E4%B8%BB%E9%A2%98/"/>
+    <id>https://consolexin.github.io/blogs/2018/11/23/Hexo采用Next主题/</id>
     <published>2018-11-23T07:13:21.000Z</published>
     <updated>2018-11-23T09:52:44.876Z</updated>
     
@@ -65,16 +65,16 @@
     </summary>
     
     
-      <category term="Hexo" scheme="https://consolexin.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://consolexin.github.io/blogs/tags/Hexo/"/>
     
-      <category term="Next" scheme="https://consolexin.github.io/tags/Next/"/>
+      <category term="Next" scheme="https://consolexin.github.io/blogs/tags/Next/"/>
     
   </entry>
   
   <entry>
     <title>Github+Hexo+Next搭建个人博客</title>
-    <link href="https://consolexin.github.io/2018/11/23/Github-Hexo-Next%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://consolexin.github.io/2018/11/23/Github-Hexo-Next搭建个人博客/</id>
+    <link href="https://consolexin.github.io/blogs/2018/11/23/Github-Hexo-Next%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://consolexin.github.io/blogs/2018/11/23/Github-Hexo-Next搭建个人博客/</id>
     <published>2018-11-23T04:50:13.000Z</published>
     <updated>2018-11-23T07:02:11.507Z</updated>
     
@@ -94,8 +94,8 @@
   
   <entry>
     <title>nice to see you</title>
-    <link href="https://consolexin.github.io/2018/11/19/nice-to-see-you/"/>
-    <id>https://consolexin.github.io/2018/11/19/nice-to-see-you/</id>
+    <link href="https://consolexin.github.io/blogs/2018/11/19/nice-to-see-you/"/>
+    <id>https://consolexin.github.io/blogs/2018/11/19/nice-to-see-you/</id>
     <published>2018-11-19T09:21:01.000Z</published>
     <updated>2018-11-22T02:42:47.686Z</updated>
     
@@ -110,21 +110,21 @@
     
     </summary>
     
-      <category term="随便写写" scheme="https://consolexin.github.io/categories/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/"/>
+      <category term="随便写写" scheme="https://consolexin.github.io/blogs/categories/%E9%9A%8F%E4%BE%BF%E5%86%99%E5%86%99/"/>
     
     
-      <category term="tags" scheme="https://consolexin.github.io/tags/tags/"/>
+      <category term="tags" scheme="https://consolexin.github.io/blogs/tags/tags/"/>
     
-      <category term="nice-to-see-you" scheme="https://consolexin.github.io/tags/nice-to-see-you/"/>
+      <category term="nice-to-see-you" scheme="https://consolexin.github.io/blogs/tags/nice-to-see-you/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://consolexin.github.io/2018/11/19/hello-world/"/>
-    <id>https://consolexin.github.io/2018/11/19/hello-world/</id>
+    <link href="https://consolexin.github.io/blogs/2018/11/19/hello-world/"/>
+    <id>https://consolexin.github.io/blogs/2018/11/19/hello-world/</id>
     <published>2018-11-19T06:53:55.626Z</published>
-    <updated>2018-11-20T17:03:02.267Z</updated>
+    <updated>2019-04-30T14:41:38.491Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><script type="math/tex; mode=display">\begin{eqnarray}\nabla\cdot\vec{E} &=& \frac{\rho}{\epsilon_0} \\\nabla\cdot\vec{B} &=& 0 \\\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \\\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)\end{eqnarray}</script>]]></content>
     
